@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "component-interaction2"
+  "defaultProject": "component-interaction2",
+  "cli": {
+    "analytics": false
+  }
 }
