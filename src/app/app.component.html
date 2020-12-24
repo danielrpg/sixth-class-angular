@@ -1,5 +1,9 @@
 <h2>
   Parent component
 </h2>
-
+<div>
+  <button (click)="userLoggedIn=true">Login</button>
+  <button (click)="userLoggedIn=false">Logout</button>
+  {{userLoggedIn}}
+</div>
 <app-child [loggedIn]="userLoggedIn"></app-child>
